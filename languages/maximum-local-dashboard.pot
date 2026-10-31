@@ -1,0 +1,235 @@
+# Copyright (C) 2026 Stafford Technologies
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Maximum Local Dashboard 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/maximum-local-dashboard\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-31T19:05:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: maximum-local-dashboard\n"
+
+#. Plugin Name of the plugin
+#: maximum-local-dashboard.php
+msgid "Maximum Local Dashboard"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: maximum-local-dashboard.php
+msgid "https://staffordtechnologies.net/maximum-local-dashboard/"
+msgstr ""
+
+#. Description of the plugin
+#: maximum-local-dashboard.php
+msgid "Plain-English campaign dashboard for WordPress. Tracks conversions to GA4 and surfaces campaign results for administrators."
+msgstr ""
+
+#. Author of the plugin
+#: maximum-local-dashboard.php
+msgid "Stafford Technologies"
+msgstr ""
+
+#. Author URI of the plugin
+#: maximum-local-dashboard.php
+msgid "https://staffordtechnologies.net/"
+msgstr ""
+
+#: includes/class-mld-admin.php:28
+#: includes/class-mld-admin.php:29
+#: includes/class-mld-admin.php:106
+msgid "Campaign Dashboard"
+msgstr ""
+
+#: includes/class-mld-admin.php:72
+#: includes/class-mld-rest.php:117
+msgid "Not configured. Paste a Google service account JSON under Settings."
+msgstr ""
+
+#: includes/class-mld-admin.php:73
+#: includes/class-mld-rest.php:61
+#: includes/class-mld-rest.php:65
+#: includes/class-mld-rest.php:146
+msgid "Not connected"
+msgstr ""
+
+#: includes/class-mld-admin.php:74
+#: includes/class-mld-admin.php:136
+msgid "Loading…"
+msgstr ""
+
+#: includes/class-mld-admin.php:75
+msgid "Something went wrong loading this tab."
+msgstr ""
+
+#: includes/class-mld-admin.php:76
+msgid "Saved."
+msgstr ""
+
+#: includes/class-mld-admin.php:87
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/class-mld-admin.php:91
+msgid "Overview"
+msgstr ""
+
+#: includes/class-mld-admin.php:92
+msgid "Campaigns"
+msgstr ""
+
+#: includes/class-mld-admin.php:93
+msgid "Conversions"
+msgstr ""
+
+#: includes/class-mld-admin.php:94
+msgid "Traffic"
+msgstr ""
+
+#: includes/class-mld-admin.php:95
+msgid "Search"
+msgstr ""
+
+#: includes/class-mld-admin.php:96
+msgid "Facebook"
+msgstr ""
+
+#: includes/class-mld-admin.php:97
+msgid "Clarity"
+msgstr ""
+
+#: includes/class-mld-admin.php:98
+msgid "Settings"
+msgstr ""
+
+#: includes/class-mld-admin.php:107
+msgid "Powered by Maximum Local"
+msgstr ""
+
+#: includes/class-mld-admin.php:111
+msgid "Campaign"
+msgstr ""
+
+#: includes/class-mld-admin.php:113
+msgid "All campaigns"
+msgstr ""
+
+#: includes/class-mld-admin.php:115
+msgid "Start date"
+msgstr ""
+
+#: includes/class-mld-admin.php:117
+msgid "End date"
+msgstr ""
+
+#: includes/class-mld-admin.php:119
+msgid "Refresh"
+msgstr ""
+
+#: includes/class-mld-admin.php:123
+msgid "Dashboard tabs"
+msgstr ""
+
+#: includes/class-mld-crypto.php:81
+msgid "OpenSSL is required to read the encrypted service account key."
+msgstr ""
+
+#: includes/class-mld-crypto.php:89
+msgid "Stored service account data could not be decoded."
+msgstr ""
+
+#: includes/class-mld-crypto.php:99
+msgid "Stored service account data could not be decrypted. Re-paste the JSON under Settings."
+msgstr ""
+
+#: includes/class-mld-ga4.php:26
+msgid "GA4 property ID is not set."
+msgstr ""
+
+#: includes/class-mld-ga4.php:65
+msgid "GA4 request failed."
+msgstr ""
+
+#: includes/class-mld-google-auth.php:68
+msgid "Token exchange failed."
+msgstr ""
+
+#: includes/class-mld-google-auth.php:99
+msgid "Invalid service account private key."
+msgstr ""
+
+#: includes/class-mld-google-auth.php:105
+msgid "Failed to sign JWT."
+msgstr ""
+
+#: includes/class-mld-rest.php:78
+msgid "Forbidden"
+msgstr ""
+
+#: includes/class-mld-rest.php:152
+msgid "Unknown tab"
+msgstr ""
+
+#: includes/class-mld-rest.php:210
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-mld-rest.php:231
+msgid "Service account cleared."
+msgstr ""
+
+#: includes/class-mld-rest.php:231
+msgid "Service account saved."
+msgstr ""
+
+#: includes/class-mld-search-console.php:27
+msgid "Search Console site URL is not set."
+msgstr ""
+
+#: includes/class-mld-search-console.php:73
+msgid "Search Console request failed."
+msgstr ""
+
+#: includes/class-mld-settings.php:308
+msgid "Service account JSON is not configured. Paste it under Settings."
+msgstr ""
+
+#: includes/class-mld-settings.php:318
+msgid "Stored service account JSON is invalid."
+msgstr ""
+
+#: includes/class-mld-settings.php:321
+msgid "Service account JSON is missing client_email or private_key."
+msgstr ""
+
+#: includes/class-mld-settings.php:343
+msgid "That does not look like valid JSON."
+msgstr ""
+
+#: includes/class-mld-settings.php:346
+msgid "JSON type must be \"service_account\"."
+msgstr ""
+
+#: includes/class-mld-settings.php:349
+msgid "JSON must include client_email and private_key."
+msgstr ""
+
+#: includes/class-mld-settings.php:357
+msgid "private_key could not be parsed by OpenSSL."
+msgstr ""
+
+#: includes/class-mld-settings.php:362
+msgid "Could not encode service account JSON."
+msgstr ""
+
+#: maximum-local-dashboard.php:73
+msgid "Docs"
+msgstr ""
+
+#: maximum-local-dashboard.php:78
+msgid "Support"
+msgstr ""
